@@ -11,6 +11,7 @@ before_script:
   - python manage.py migrate
   - python manage.py collectstatic --noinput
 script:
+  - black --check .
   - python manage.py test
   - echo "Deploying..."
 after_script:
