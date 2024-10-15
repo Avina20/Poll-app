@@ -12,9 +12,12 @@ before_script:
   - python manage.py collectstatic --noinput
 script:
   - black --check .
+  - flake8
+  - coverage run manage.py test
   - python manage.py test
   - echo "Deploying..."
 after_script:
+  - coveralls
   - echo "Finished deploying!"
 
 
