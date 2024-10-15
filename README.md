@@ -1,4 +1,9 @@
 # Poll-app
+
+[![Build Status](https://app.travis-ci.com/Avina20/Poll-app.svg?token=pVzjHqSvAuGeypphJkAN&branch=main)](https://app.travis-ci.com/github/Avina20/Poll-app)
+
+
+
 Polling application using Django
 
 It has 2 parts:
