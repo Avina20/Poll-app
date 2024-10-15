@@ -17,6 +17,11 @@ script:
   - coverage report
   - coverage xml
   - echo "Deploying..."
+
+env:
+  global:
+    - COVERALLS_REPO_TOKEN=D4ZNUUP9NmnGkHauBu3jXT6k3LvMBzvt6
+  
 after_success:
   - git add .coverage coverage.xml
   - echo "COVERALLS_REPO_TOKEN is set to $COVERALLS_REPO_TOKEN"
