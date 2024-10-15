@@ -13,6 +13,6 @@ It has 2 parts:
 
 The admin can add, update or remove polls and choices. User can vote as many times on any polls. Users can search a poll, vote and view results on the website. 
 
-The polling site can be accessed at - http://django-env2.eba-gmieun3p.us-east-1.elasticbeanstalk.com/polls/
+The polling site can be accessed at - [http://django-env2.eba-gmieun3p.us-east-1.elasticbeanstalk.com/polls/](http://django-env.eba-gmieun3p.us-east-1.elasticbeanstalk.com/polls/)
 
 Admin panel - http://django-env2.eba-gmieun3p.us-east-1.elasticbeanstalk.com/admin/
