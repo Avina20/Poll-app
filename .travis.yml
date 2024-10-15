@@ -24,7 +24,7 @@ after_success:
 
 env:
   global:
-    - COVERALLS_REPO_TOKEN=D4ZNUUP9NmnGkHauBu3jXT6k3LvMBzvt6
+    - COVERALLS_REPO_TOKEN: D4ZNUUP9NmnGkHauBu3jXT6k3LvMBzvt6
 
 deploy:
   provider: elasticbeanstalk
