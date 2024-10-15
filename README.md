@@ -2,7 +2,7 @@
 
 [![Build Status](https://app.travis-ci.com/Avina20/Poll-app.svg?token=pVzjHqSvAuGeypphJkAN&branch=main)](https://app.travis-ci.com/github/Avina20/Poll-app)
 
-[![Coverage Status](https://coveralls.io/repos/github/Avina20/Poll-app/badge.svg)](https://coveralls.io/github/Avina20/Poll-app)
+[![Coverage Status](https://coveralls.io/repos/github/Avina20/Poll-app/badge.svg?branch=main)](https://coveralls.io/github/Avina20/Poll-app?branch-main)
 
 Polling application using Django
 
