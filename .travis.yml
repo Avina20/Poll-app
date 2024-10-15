@@ -17,10 +17,8 @@ script:
   - coverage report
   - coverage xml
   - echo "Deploying..."
-after_script:
+after_success:
   - coveralls
-  - echo "Finished deploying!"
-
 
 deploy:
   provider: elasticbeanstalk
