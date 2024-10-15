@@ -14,7 +14,8 @@ script:
   - black --check .
   - flake8
   - coverage run manage.py test
-  - python manage.py test
+  - coverage report
+  - coverage xml
   - echo "Deploying..."
 after_script:
   - coveralls
